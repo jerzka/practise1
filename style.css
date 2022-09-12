@@ -1,0 +1,92 @@
+:root {
+  --basic-color: rgb(32, 178, 170);
+  /*lightseagreen*/
+  --darken-basic-color: rgb(25, 125, 120);
+  --accent-color: rgb(244, 94, 186);
+}
+
+body {
+  font-family: Arial;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  background-color: var(--basic-color);
+}
+
+h1 {
+  display: inline-block;
+  color: rgb(240, 255, 255);
+  padding: 10px 20px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  font-family: 'Roboto Slab', serif;
+}
+
+img {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  margin: auto;
+  padding-top: 25px;
+  object-fit: cover;
+}
+
+hr {
+  padding-bottom: 5px;
+  border-top: 2px dashed rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+section {
+  padding-left: 20px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  color: var(--basic-color);
+}
+
+.upper-case {
+  text-transform: uppercase;
+  color: var(--darken-basic-color);
+  font-weight: bold;
+  font-style: oblique;
+}
+
+#primary-list {
+  list-style: none;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+.letters-list{
+  list-style-type:lower-latin;
+}
+a:link {
+  text-decoration: none;
+  color: var(--darken-basic-color);
+}
+
+a:visited {
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: var(--basic-color);
+  font-weight: bold;
+}
+
+a:active {
+  color: var(--darken-basic-color);
+  font-size: large;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px 10px;
+  margin-top: 20px;
+  border-top: 2px dashed var(--basic-color);
+}
